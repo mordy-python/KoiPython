@@ -13,7 +13,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",
-    author="Israel Waldner",
+    author="Izzy Waldner",
     author_email="imky171@gmail.com",
     packages=["src", "src.koi", "src.koi.std"],
     entry_points={"console_scripts": ["koi=src.__main__:main"]},
@@ -21,6 +21,6 @@ setup(
         "Programming Language :: Python :: 3.10",
         "License :: OSI Approved :: MIT License",
     ],
-    project_urls={"Homepage": "https://github.com/IsraelWald/Koi"},
+    project_urls={"Homepage": "https://github.com/mordy-python/KoiPython"},
     install_requires=["typing_extensions"],
 )
